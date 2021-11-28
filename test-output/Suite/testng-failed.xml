@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="passWord" value="hhhhhameed2121"/>
+    <parameter name="userName" value="hhhhhameed.hus"/>
+    <classes>
+      <class name="org.maven.TestNgParameter">
+        <methods>
+          <include name="tc02" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.maven.TestNgParameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
